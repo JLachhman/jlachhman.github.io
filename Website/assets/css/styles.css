@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+   line-height: 1.8;
+   color: #fff;
+   font-size: 15px;
+   font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-weight: 700;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #fff;
+}
+
+.title-sm {
+   font-size: 16px;
+   letter-spacing: 1px;
+}
+
+a {
+   font-weight: 700;
+   transition: all 0.4s ease;
+   text-decoration: none;
+}
+
+img {
+   width: 100%;
+}
+
+small {
+   font-size: 12px;
+   letter-spacing: 2px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+section {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.logo-text {
+   font-size: 22px;
+   text-transform: uppercase;
+   color: #fff;
+}
+
+/* HERO SECTION */
+
+#hero {
+    background: linear-gradient(rgba(49, 22, 7, 0.2), rgba(49, 22, 7, 0.2)), url(/assets/img/grey-accessories.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+#hero box {
+    text-align: center;
+    padding: 30px;
+    margin-top: 25%;
+    margin-left: 50%;
+    width: 400px;
+    color: 111;
+    background: transparent;
+    background-color: #331707;
+    transform: translate(-50%, -50%);
+}
+
+#hero h1 {
+    font-weight: 700;
+}
+ 
+#hero p {
+    max-width: 550px;
+    margin: 18px auto;
+}
+ 
+.btn {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 16px 40px;
+    border-radius: 0;
+}
+ 
+.book-appointment {
+    background-color: #58280b;
+    color: #e29c5e;
+}
+ 
+.book-appointment:hover {
+    background-color: #462009;
+    color: #e29c5e;
+}
+
+/* SERVICES SECTION */
+
+#services {
+    background-image: url(/assets/img/brown-accessories-table-left.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    background: linear-gradient(rgba(49, 22, 7, 0.7), rgba(49, 22, 7, 0.7));
+}
+
+.services-container {
+    background: linear-gradient(rgba(49, 22, 7, 0.7), rgba(49, 22, 7, 0.7));
+}
+/*
+.section-title {
+    background: linear-gradient(rgba(49, 22, 7, 0.5), rgba(49, 22, 7, 0.5));
+    color: #fff;
+}
+*/
+.services-content {
+    font-size: large;
+    color: #fff;
+}
+
+.services-content a {
+    color: #fff;
+}
+
+.services-descrption p {
+    font-size: large;
+    color: #fff;
+}
+
+/* TEAM SECTION */
+
+#team {
+    background-color: #331707;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+h5, p {
+    color: black;
+}
+
+.btn {
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 0;
+    background-color: #58280b;
+    color: #e29c5e;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/barbershop-pole.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.contact .info-wrap {
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    padding: 30px;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.contact .info {
+    background: #fff;
+}
+
+/* FOOTER SECTION */
+
+#footer {
+    background: black;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+h3 {
+    color: white;
+}
+
+.fa {
+    color: #e29c5e;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    color: #58280b;
+    opacity: 0.7;
+}
